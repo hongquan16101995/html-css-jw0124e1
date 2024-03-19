@@ -1,0 +1,23 @@
+- label: dùng để gắn nhãn cho thành phần html mong muốn thông qua id
+
+- 1 số thuộc tính trong thẻ HTML:
++ id : định danh cho thành phần HTML; mỗi id chỉ xuất hiện trên 1 thẻ HTML
++ class : gom nhóm 1 số thẻ HTML cần tác động chung
++ name : định danh cho trường dữ liệu được gắn bởi thẻ đó
++ style : dùng để tác động CSS lên thẻ tương ứng (inline)
++ value : giá tri của thẻ tại thời điểm truy xuất; thường dùng cho các thẻ trong form
++ innerHTML : giá trị hiển thị của thẻ ra màn hình
+
+
+- thuộc tính của form:
++ method: quy định cách mà dữ liệu được gửi đi bởi form
+* GET:
+  - hiển thị dữ liệu trên đường dẫn URL
+  - gửi ít dữ liệu
+  - không bảo mật
+* POST:
+  - ẩn dữ liệu, dữ liệu sẽ nằm trong body của request
+  - gửi được nhiều dữ liệu (gần như không giới hạn)
+  - có sự bảo mật hơn so với GET
++ action: chứa địa chỉ nới nhận dữ liệu của form
++ enctype: quy định về dữ liệu mà form có thể gửi

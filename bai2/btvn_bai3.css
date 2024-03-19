@@ -1,0 +1,46 @@
+table {
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: blue
+}
+
+#table1 {
+    color: blue;
+    width: 600px;
+}
+
+#table2 {
+    width: 700px;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+#table2 tr, #table2 td, #table2 th {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+.right {
+    text-align: right;
+}
+
+.daily {
+    width: 20%;
+    background-color: yellow;
+}
+
+.center {
+    text-align: center;
+}
+
+#orange {
+    background-color: orange;
+}
+
+td {
+    height: 25px;
+    padding-left: 5px;
+}

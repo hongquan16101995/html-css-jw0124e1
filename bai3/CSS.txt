@@ -1,0 +1,46 @@
+- CSS: Cascading Style Stylesheet
+- ngôn ngữ hỗ trợ làm đẹp cho website thông qua việc thay đổi các thuộc tính, chỉ số của thành phần HTML
+- Nhúng CSS vào HTML thông qua 3 cách:
+	+ inline: viết trực tiếp CSS vào thẻ HTML thông qua thuộc tính style
+	+ internal: sử dụng thẻ style, đặt ở phần header của trang web
+	+ external: sử dụng file .css để chứa mã code CSS, sau đó nhúng vào HTML bằng thẻ link ở phần header
+
+- cú pháp:
+	selector {
+		key (tên thuộc tính css) : value (giá trị của tt CSS);
+	}
+
+- so sánh về sự ưu tiên trong 3 p.án trên:
+	inline > internal == external
+	+ độ ưu tiên của internal và external sẽ ảnh hưởng bởi vị trí của nó trong phần header (khoảng cách từ phần code đó đến vị trí phần tử HTML)
+
+- selector: bộ chọn trong CSS, chỉ định phần tử hoặc nhóm phần tử sẽ được tác động mã CSS
+	+ tagname: tên của thẻ sẽ được tác động
+	=> truy xuất đến tagname: <tên thẻ> {properties}
+	+ class: các thẻ được đánh class tương ứng sẽ bị tác động
+	=> truy xuất đến class: .<tên class> {properties}
+	+ id: thẻ có id tương ứng sẽ bị tác động
+	=> truy xuất đến id: #<tên id> {properties}
+	id > class > tagname
+- 1 số thuộc tính thông dụng:
+	+ width 
+        + height 
+        + color: background, border
+	+ border
+	+ float
+	+ display
+	+ font: size, wight, family
+	+ position
+
+- sự kiện: các hành động sẽ tác động đến 1 phần CSS được thiết kế trước
+
+- Box model trong CSS: 1 kỹ thuật hỗ trợ lvt tác động đến vị trí phần tử và vị trí nội dùng phần tử trong HTML
+	1 thành phần HTML sẽ có 4 thành phần con
+	+ content: nội dung của thẻ HTML
+	+ border: đường viền của thẻ HTML
+	+ padding: khoảng cách giữa đường viền và nội dung thẻ HTML
+	+ margin: khoảng cách giữa các đường viền của các thẻ HTML khác nhau
+
+
+
+

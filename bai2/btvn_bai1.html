@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .blue {
+            color: blue;
+            width: 100px;
+        }
+
+        h2 {
+            background-color: rgb(145, 237, 206);
+            color: blue;
+            margin-top: 5px;
+        }
+
+        table {
+            width: 500px;
+            background-color: rgb(239, 239, 96);
+        }
+
+        button {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="get" enctype="">
+    <table>
+        <tr>
+            <td colspan="2">
+                <h2>ĐĂNG KÝ HỌC VIÊN</h2>
+            </td>
+        </tr>
+        <tr>
+            <td class="blue"><label for="name">Họ và tên</label></td>
+            <td><input type="text" value="" size="30" id="name" name="name"></td>
+        </tr>
+        <tr>
+            <td class="blue">Ngày sinh</td>
+            <td><input type="text" size="16"></td>
+        </tr>
+        <tr>
+            <td class="blue">Giới tính</td>
+            <td>
+                <input type="radio" id="male" name="gender" value="nam"> <label for="male">Nam</label>
+                <input type="radio" id="female" name="gender" value="nu"> <label for="female">Nữ</label>
+            </td>
+        </tr>
+        <tr>
+            <td class="blue">Địa chỉ</td>
+            <td>
+                <textarea name="" id="" cols="25" rows="5"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td class="blue">Lớp</td>
+            <td>
+                <select name="class">
+                    <option value="">--- Chọn lớp ---</option>
+                    <option value="1">Lớp 1</option>
+                    <option value="2">Lớp 2</option>
+                    <option value="3">Lớp 3</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="blue">Email</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td class="blue">Điện thoại</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button type="submit">Đăng ký</button>
+                <button>Nhập lại</button>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

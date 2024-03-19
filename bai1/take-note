@@ -1,0 +1,63 @@
+- HTML là gì?
+    - Hyper Text Markup Language - ngôn ngữ đánh dấu siêu văn bản
+    - không tính là 1 NN lập trình
+    - sử dụng để xây dựng bố cục giao diện cho trang web
+
+* 1 số thẻ thông dụng trong HTML:
++ Cấu thành trang HTML:
+- head: quy định phần đầu trang web, chứa các cài đặt liên quan trang web
+- meta: cài đặt 1 số tính năng cho trang web
+- title: đặt tên cho trang web trên tab trình duyệt
+- link: gắn tài nguyên vào trang web (CSS)
+- script: gắn file .js hoặc viết mã js trong đó
+- style: viết mã CSS trong đó
+- body: chứa phần thần của trang web, là phần sẽ hiển thị cho người dùng sử dụng
+- section, footer: chia trang web thành 1 số khu vực vs mục đích riêng 
+
++ Chuỗi:
+- p: thẻ văn bản
+- b: in đậm văn bản
+- i: in nghiêng văn bản
+- u: gạch chân văn bản
+- strong: giống b
+- em: đánh dấu văn bản
+- span: tách 1 phần văn bản để config
+- center: căn giữa
+- pre: giữ nguyên định dạng văn bản khi đưa vào HTML
+
++ Bảng: dùng để hiển thị dữ liệu trên trang HTML
+- table: giới hạn của bảng
+- tr: tạo ra các hàng trong bảng
+- th: tạo các ô trên hàng, nội dung ô sẽ in đậm và căn giữa
+- td: tạo các ô trên hàng
++ Biểu mẫu: dùng để thu thập thông tin người dùng trên trang HTML
+- form: giới hạn của biểu mẫu, quy định 1 số tính chất của form: gửi đi đâu, gửi ntn
+- input: để người dùng nhập liệu vào trang web
+    - thuộc tính đặc thù của input: (type) quy định cách mà input đấy lấy dữ liệu
+    + text: nhập chuỗi
+    + number: nhập số
+    + radio: lựa chọn duy nhất
+    + checkbox: lựa chọn nhiều
+    + email: định dạng text phải có @
+    + password: tự động mã hóa thành hình tròn 
+    + file: cho chọn file (nếu dùng multi sẽ cho chọn nhiều file)
+    + date: nhập ngày, có lịch đi kèm
+    + datetime-local: nhập ngày và time, có lịch và đồng hồ đi kèm
+    + range: chọn 1 giá trị trong khoảng giá trị
+    + button: dạng nút bấm
+    + submit: dạng nút bấm, dùng để xác nhận gửi dữ liệu từ form
+    + reset: dạng nút bấm, dùng để clear form
+- select-option: lựa chọn ở dạng dropdown (kiểu menu rơi xuống)
+- button: nút bấm
+- textarea: cho phép nhập dữ liệu chuỗi nhưng mà nhiều
++ Danh sách:
+- ol: danh sách có thứ tự
+- ul: danh sách không có thứ tự
+- li: thành phần trong danh sách
++ Khác:
+- h1-6: thẻ tiêu đề, tự động in đậm, từ 1 => 6 sẽ giảm dần độ lớn
+- a: thẻ gắng siêu liên kết
+- img: thẻ hiển thị ảnh
+- audio: thẻ gắn file nhạc
+- video: thẻ gắng file video
+- iframe: thẻ lấy ra khung hình mong muốn

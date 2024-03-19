@@ -1,0 +1,40 @@
+header{
+    text-align: center;
+    color: blue;
+}
+table{
+    text-align: center;
+}
+th{
+    background-color: yellow;
+}
+.monhoc{
+    background-color: orange;
+}
+.monhoc3{
+    text-align: left;
+}
+.monhoc31{
+    text-align: center;
+}
+table{
+    
+    width: 800px;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+.boder1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: aqua;
+    
+}
+.left{
+    margin-left: 100px;
+}
+.right{
+    margin-left: 200px;
+}

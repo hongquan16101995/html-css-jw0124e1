@@ -1,0 +1,63 @@
+- Javascript: ngôn ngữ lập trình thủ tục, chủ yếu sử dụng hàm và biến
++ JS vẫn cho sử dụng OOP nhưng không đầy đủ
+- Js thường dùng để hỗ trợ tăng tương tác cho website và hiệu ứng
+- Thành phần trong ngôn ngữ:
+	+ Biến: tên gọi cho vùng nhớ chứa dữ liệu
+		- 3 cách để khai báo biến
+		+ let
+		+ var
+		+ const
+	+ Toán tử: 
+		- Số học: + - * / %
+		- So sánh: == === != !== > >= < <=
+			+ lưu ý: == và === ; != và !==
+		- Gán: =
+		- Logic: && || !
+		- Cộng chuỗi: +
+		- Typeof
+	+ Kiểu dữ liệu: 7 kiểu dữ liệu
+		- number
+		- chuỗi
+		- boolean
+		- null
+		- undefined
+		- Symbol
+		- Object
+	+ Cấu trúc: 
+		- Điều kiện
+			- if
+			- switch-case
+		- Lặp
+			- for
+			- while
+			- do-while
+		- Toán tử ba ngôi: 
+			let variables = điều kiện ? giá trị khi đk đúng : giá trị khi đk sai
+	+ Mảng: 
+		- phần tử
+		- số lượng phần tử: length
+		- vị trí phần tử: index
+		- không giới hạn độ dài, chứa được tất cả các loại dữ liệu khác
+		- cung cấp vòng lặp duyệt mảng đặc thù:
+			+ for in: trả về vị trí phần tử (0 => n với n = length)
+			+ for of: trả về giá trị phần tử
+		- cung cấp phương thức có sẵn để sử dụng tương tác với mảng. gần như đáp ứng hầu hết các yêu cầu của lvt => mảng là 1 biến dạng object
+	+ Hàm:
+		- không yêu cầu khai báo kiểu dữ liệu cho giá trị trả về
+		- không yêu cầu hàm phải có hoặc không có cái gì đó
+		- tham số: option (có cũng được, không có cũng được)
+		- return: option (có cũng được, không có cũng được)
+		- 4 kiểu hàm thông dụng:
+			+ không tham số, không giá trị trả về
+			+ không tham số, có giá trị trả về
+			+ có tham số, không giá trị trả về
+			+ có tham số, có giá trị trả về
+
+
+
+
+
+
+
+
+

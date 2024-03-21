@@ -1,0 +1,7 @@
+- position: 
+	+ static: vị trí mặc định của phần tử. sẽ được tính và sắp xếp theo HTML đã viết. không sử dụng được thuộc tính vị trí: top, left, right, bottom
+	+ fixed: cho phép sử dụng thuộc tính vị trí. luôn luôn so sánh chỉ số với body và vị trí sẽ lấy tương đối so với body
+	+ absolute: cho phép sử dụng thuộc tính vị trí. sẽ so sánh chỉ số và vị trí với thành phần cha chứa thành phần đang được đánh dấu là absolute
+	* lưu ý: absolute sẽ không quan tâm đến các thẻ thành phần bên cạnh nó (thẻ thành phần anh em với nó | đồng cấp)
+	+ relative: cho phép sử dụng thuộc tính vị trí. sẽ so sánh chỉ số và vị trí với thành phần cha chứa thành phần đang được đánh dấu là relative
+	* lưu ý: relative sẽ quan tâm đến các thẻ thành phần bên cạnh nó (thẻ thành phần anh em với nó | đồng cấp), tức là sẽ bị thay đổi chỉ số theo thẻ đồng cấp đó

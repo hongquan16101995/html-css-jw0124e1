@@ -1,6 +1,12 @@
 - Javascript: ngôn ngữ lập trình thủ tục, chủ yếu sử dụng hàm và biến
 + JS vẫn cho sử dụng OOP nhưng không đầy đủ
-- Js thường dùng để hỗ trợ tăng tương tác cho website và hiệu ứng
+- JS thường dùng để hỗ trợ tăng tương tác cho website và hiệu ứng
+
+- 3 cách nhúng JS vào HTML:
+	- inline: không khuyến khích sử dụng, trừ việc gọi sự kiện
+	- internal: có sử dụng nhưng không quá nhiều, thường dùng cho các đoạn code ngắn, xử lý ngay 1 vấn đề nào đó
+	- external: là cách thường xuyên được sử dụng, làm code tường mình hơn, và file code ngắn
+
 - Thành phần trong ngôn ngữ:
 	+ Biến: tên gọi cho vùng nhớ chứa dữ liệu
 		- 3 cách để khai báo biến

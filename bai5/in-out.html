@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="input">
+    <button onclick="m1()">Click</button>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <button onclick="m2()">Click me</button>
+</body>
+<script>
+    // xuất nhập dữ liệu trong chương trình Js
+    // nhập: prompt(); input HTML
+    // xuất: console.log(); alert(); document.write(); innerHTML/innerText
+
+    // nhập
+    // prompt() luôn trả về 1 string
+    // let a = prompt("Nhập 1 giá trị nào đó")
+    // console.log(a);
+    // console.log(typeof(a));
+
+    // input HTML thường lấy giá trị thông qua id
+    function m1() {
+        let a = document.getElementById("input").value 
+        console.log(a);
+    }
+
+    // xuất
+    // innerText: xuất ra giá trị thuần text, theo giá trị nhận vào
+    // innerHTML: xuất ra giá trị được chuyển đổi HTML nếu có
+    document.getElementById("p1").innerText = "<h1>Demo1</h1>"
+    document.getElementById("p2").innerHTML = "<h1>Demo2</h1>"
+    // document.write(): xuất giá trị ra màn hình, nhưng nó sẽ xóa bỏ tất cả các element đã có trước đó
+    function m2() {
+        document.write("<b>HelloWorld</b>")
+    }
+    
+
+</script>
+</html>

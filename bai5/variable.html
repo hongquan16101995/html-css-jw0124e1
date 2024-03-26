@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="alert('HelloWorld')">Click</button>
+</body>
+
+<script>
+    // 3 cách khai báo
+    const NUMBER = 10 // hằng số, giá trị không đổi sau khi khai báo
+    // NUMBER = 100
+    console.log(NUMBER);
+
+    // var khai báo biến toàn cục, không có giới hạn
+    // khai báo var có thể được khai báo
+    // có thể sử dụng biến trước khi khai báo
+    console.log(number2);
+    var number2 = 30
+    console.log(number2);
+    var number2 = 100
+    console.log(number2);
+
+    // let khai báo biến cục bộ, giới hạn trong 1 block
+    // khai báo let không thể được khai báo
+    // chỉ sau khai báo mới có thể dùng biến đó
+    // console.log(number1);
+    let number1 = 20
+    console.log(number1);
+
+    // phạm vi của biến
+    {
+        let a = 10
+    }
+    console.log(a);
+
+    {
+        var b = 10
+    }
+    console.log(b);
+</script>
+
+<!-- <script>
+    alert("abc")
+</script>
+<script src="variable.js"></script> -->
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // số học: + - * / %
+    let num1 = 10
+    let num2 = 2
+    console.log(num1 + num2);
+    console.log(num1 - num2);
+    console.log(num1 * num2);
+    console.log(num1 / num2);
+    console.log(num1 % num2);
+    console.log('-----------------');
+    // so sánh: > < >= <=
+    // == và === : == chỉ so sánh giá trị; === so sánh kdl và giá trị
+    // != và !== : != chỉ so sánh giá trị; !== so sánh kdl và giá trị
+    let variable1 = 10
+    let variable2 = "10"
+    console.log(variable1 == variable2);
+    console.log(variable1 === variable2);
+    console.log(variable1 != variable2);
+    console.log(variable1 !== variable2);
+    console.log('-----------------');
+    // logic: && || !
+    // &&: chỉ đúng khi cả 2 về đều đúng, sai trong mọi trường hợp còn lại
+    // ||: chỉ sai khi cả 2 về đều sai, đúng trong mọi trường hợp còn lại
+    // !: đảo ngược giá trị boolean
+    console.log(true && true);
+    console.log(true && false);
+    console.log(false && true);
+    console.log(false && false);
+    console.log(true || true);
+    console.log(true || false);
+    console.log(false || true);
+    console.log(false || false);
+    console.log(!true);
+    console.log('-----------------');
+    // cộng chuỗi: + => chỉ xảy ra khi 1 trong 2 toán hạng là chuỗi
+    let number = 10
+    let str = "abc"
+    let number1 = 20
+    console.log(number + str + number1);
+    console.log(number + number1 + str);
+    console.log(str + number + number1);
+    console.log('-----------------');
+    // gán: = += -= /= *= %=
+    let number2 = 10
+    console.log(number2);
+    console.log(typeof(number2));
+    number2 = "10"
+    console.log(number2);
+    console.log(typeof(number2));
+    
+    let a = 1
+    let b = "1"
+    console.log(a);
+    console.log(b);
+    console.log(a + b);
+    // => có thể gán mọi biến cho nhau, cũng như gán mọi loại giá trị cho biến 
+    console.log('-----------------');
+    // typeof: kiểm tra kiểu dữ liệu của giá trị của biến
+    console.log('-----------------');
+    // a++ và ++a
+    // a-- và --a
+    let n1 = 5
+    let n2 = n1++
+    let n3 = ++n2
+    let n4 = n2--
+    let n5 = --n1
+    console.log("n1=" + n1);
+    console.log("n2=" + n2);
+    console.log("n3=" + n3);
+    console.log("n4=" + n4);
+    console.log("n5=" + n5);
+    console.log('-----------------');
+    // 10 + "10" => 20
+    let demo1 = 10
+    let demo2 = "10"
+    console.log(demo1 + demo2);
+    // 3 cách để chuyển tử chuỗi thành số (chuỗi có định dạng)
+    let demo3 = +demo2
+    console.log(typeof(demo3));
+    let demo4 = parseInt(demo2) // dùng cho số nguyên
+    // số thập phần cần dùng parseFloat()
+    console.log(typeof(demo4));
+    let demo5 = Number(demo2)
+    console.log(typeof(demo5));
+</script>
+</html>
